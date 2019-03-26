@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/frag_left"
+        class="com.lecture.gl.week8fragments.MainFragment"
+        tools:layout="@layout/fragment_main"/>
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/frag_right"
+        class="com.lecture.gl.week8fragments.FragmentDetail"
+        tools:layout="@layout/fragment_fragment_detail"/>
+
+</LinearLayout>

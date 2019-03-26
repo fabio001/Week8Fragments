@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="@string/main_menu_item"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/squrtlebtn"
+            android:src="@drawable/squrtle"
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:id="@+id/balbabtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/balba"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/pikabtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/pika"/>
+        <ImageButton
+            android:id="@+id/saydekbtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/saydek"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week8Fragments</string>
+    <string name="not_supported">This is not supported!</string>
+    <string name="main_menu_item">Characters</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

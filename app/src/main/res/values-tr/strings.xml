@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Week8FragmentsTR</string>
+
+    <string name="not_supported">Bu desteklenmemektedir.</string>
+    <string name="main_menu_item">Karakterler</string>
+</resources>
